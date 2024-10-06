@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Image Format Converter",
+  "version": "1.0",
+  "description": "Converts images images from JPG/JPEG to png format and vice versa",
+  "permissions": ["activeTab"],
+  "browser_action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "scripts": ["logic.js"],
+    "persistent": false
+  }
+}

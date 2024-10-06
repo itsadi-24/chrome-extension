@@ -1,0 +1,28 @@
+{
+  "name": "chrome-extention",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "build-extension": "vite build && cp public/manifest.json public/logic.js dist/"
+  },
+  "keywords": [],
+  "author": "Adi Prasan Khuntia",
+  "license": "ISC",
+  "dependencies": {
+    "lucide-react": "^0.447.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.2",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.8"
+  }
+}
