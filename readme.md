@@ -1,6 +1,6 @@
 # Image Format Converter Chrome Extension
 
-![Image Format Converter Extension](extension.png)
+![Image Format Converter Extension](./entension.png)
 
 ## Description
 
