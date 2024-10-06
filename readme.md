@@ -31,7 +31,7 @@ The Image Format Converter is a Chrome extension that allows users to quickly an
 
 ## Technologies Used
 
-- HTML/CSS
+- React + Tailwind
 - JavaScript
 - Chrome Extension APIs
 - Canvas API for image processing
